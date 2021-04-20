@@ -29,6 +29,7 @@ def telegram_bot_sendtext(bot_message):
 telegram_bot_sendtext("Start alert")
 stop = 0
 prev_price = 0
+stick = 0
 while (1):
     try:
         while (stop != 1):
@@ -66,9 +67,12 @@ while (1):
                 for i in range(n_alert):
                     telegram_bot_sendtext("Price accoss " + str(prev_price) +"  Delta = " +str(del_price))
                     time.sleep(1)
+            stick = stick+1
+            if stick == 10:
+                stick = 0
+                telegram_bot_sendtext("Price accoss " + str(prev_price) +"  Delta = " +str(del_price))
             # for iprice in alert_list:
             #     if (prev_price > iprice > last_price or prev_price < iprice < last_price):
             #         telegram_bot_sendtext("Price accoss " + str(iprice))
     except:
         time.sleep(5)
-
