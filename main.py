@@ -26,7 +26,6 @@ def telegram_bot_sendtext(bot_message):
     response = requests.get(send_text)
     return response.json()
 
-
 telegram_bot_sendtext("Start alert")
 stop = 0
 prev_price = 0
