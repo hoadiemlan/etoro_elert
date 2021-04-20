@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "etoro-alert",
+  "private_key_id": "4d1dd45483df7240f07970cc5e421c2527d5e12f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHh7CulxPXGo5o\n2S4+U1TOgJR+tjiyN6LoOEYNKZgzLzc4h22wW2DPsCL+glKZprkUl4TDODRx8gXh\nKe96cQopU8IMNgBZrJSFKk3ZaQdyROIi9NepWkRrSO46b09guJzmyWDdHeFvLh4j\niFZCCVIJCpTxe6GfZw6tTZDRE6YpHYbuWPLa5XYF68flH3FNn860ZCewPOm4iqbH\nwntjDdFcjAaLCDXoJUP+kefikNsNjA/XV+OI/gFUwve1Muw73VooXH56uopOzaUt\n0C31II6FSf/JGgdZxXrQEgsqJD+iKQx12aWj7gY5H18YxYq45cK8+uwhmE3hFiWg\nOZiV9os3AgMBAAECggEACvagtacldu9Fnes5CEGp6kLUZfX7PYejEuFsr/J2I3HX\ntepzE3qh4ieKdLOSeFDZ4JDGwbdH4m7q9clJGFA3v7eTdPpOoJ7D9mExr91+hD/W\nsRcE9pA4LDDwrhNJqEXckS3FfcDTjzlYfJlULAK5GDgVoQMrCUgvXURizaonuiCF\nXErEdQtFu1IspWm6UK4WVGHRHTj5e9nYMYfnaz1LnROkwicFCtEmiJ1hhMuISUu3\n4wy22I/WuFXJ+hUx5VpAVHDLXw6L01DM0B9eWeMaCE28X2AvdvWb0yEde+GXHxZg\ndowJ72TFef3CZ2IFXV8kDo7gLp4JphA5IkVX8g8jQQKBgQDqGjGJbF9THBoHOQu/\nbF4lgQ5aBCWWL+iphevOvSNALUpDsL5aKtue+SsXVL2RPMQEi8iGHoFKfvRuDlrc\nqW/lJzQnZ0cGbGLgWbE8dx/ftbTFVTbGD2Ufwe/xx9pZjIja7lmZBygdwVJ1iN81\nhYYldSDBtaAQ3xWcHWe6reva4QKBgQDaMaFHv3H2XjPcbVkHO0z2ulPHDtSp2d3q\niJFK9Vh8HXc7yyltRmjB+NMTyz6haY5ydximVgkHTFnaxq5CuAZBRZwXGrVaqUlG\nk2oyBmURz/RxU8ktBOo3mWfL0tIuQ97tkkU48VJSn87f9GSJtZOxols3CnzgOfXJ\n0EaDKksBFwKBgQDKYs7Esc5PeZH/AJBpc3SJE+OmasNb7htEw6SzXMym5QC5OIm4\nRikMbPmV+ArTDyefjoFTgffgwZTruLlQ36L/Bz+NeTnsEbQBpUkWrx39N4gKubra\ny+Bu7ilUa6UXmemO7FTFeWxzHPj+58+g48ivhW1GSpERROvXxYwx1b57wQKBgBDu\n1RNaWh/Cg8fRfJ1BDuH+582E6yAbVkuDObNVgv5u0vgC9j4SvsJ+6vKYTU39gR6E\n+5a9CopUdIyz6oYm/eVG36wzWGumw5cEjbNAJ8vQFapN1Ej4Hq0d7J42yDTq83wA\nY/rdT4Q1/roGn17IhqO8c9O7rqFAHkEBNterCpMVAoGBAOAl3m/rTJiESdMmej4E\nyhNdtV0jMJ7xmM/d3/mghqDpvQulFVEDHkUzNpwNlqxI57lBYBniRZHfzcGY6uPy\nsp15bGFpM2vDKXgBZFUQTnzGmJutYw0SGr1c45OkaQKz6STOBfKetBAmHD2faAGo\neECNv6kzicT7b3rteoSKyBxj\n-----END PRIVATE KEY-----\n",
+  "client_email": "lechihieu-nctu@etoro-alert.iam.gserviceaccount.com",
+  "client_id": "108507430825561211050",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lechihieu-nctu%40etoro-alert.iam.gserviceaccount.com"
+}

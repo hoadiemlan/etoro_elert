@@ -1,9 +1,10 @@
 import http.client, urllib, base64, re
 import requests
 import time
+from gg_data import *
 
 
-alert_list = [1767, 1767.5, 1765, 1763.5, 1760]
+alert_list = get_data()
 
 
 def history(a):
@@ -29,10 +30,10 @@ def telegram_bot_sendtext(bot_message):
 telegram_bot_sendtext("Start alert")
 stop = 0
 prev_price = 0
-stick = 0
+
 while (1):
     try:
-        while (stop != 1):
+            alert_list = get_data()
             duration = "OneMinute"
             item_id = 18
             # create link
@@ -67,12 +68,12 @@ while (1):
                 for i in range(n_alert):
                     telegram_bot_sendtext("Price accoss " + str(prev_price) +"  Delta = " +str(del_price))
                     time.sleep(1)
-            stick = stick+1
-            if stick == 10:
-                stick = 0
-                telegram_bot_sendtext("Price accoss " + str(prev_price) +"  Delta = " +str(del_price))
+            if (int(time.localtime().tm_min) in [0, 30]):
+                telegram_bot_sendtext("Sticky")
+
             # for iprice in alert_list:
             #     if (prev_price > iprice > last_price or prev_price < iprice < last_price):
             #         telegram_bot_sendtext("Price accoss " + str(iprice))
     except:
         time.sleep(5)
+
