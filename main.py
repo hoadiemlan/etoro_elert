@@ -70,6 +70,7 @@ while (1):
             if (int(time.localtime().tm_min) in [0, 30]):
                 telegram_bot_sendtext("Sticky")
 
+
             # for iprice in alert_list:
             #     if (prev_price > iprice > last_price or prev_price < iprice < last_price):
             #         telegram_bot_sendtext("Price accoss " + str(iprice))
