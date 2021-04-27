@@ -3,7 +3,7 @@ import requests
 import time
 from myform import *
 
-alert_list = []
+alert_list = [1766, 1765, 1785]
 
 def history(a):
     body = a[2:-4]
@@ -51,7 +51,9 @@ def check(prev_price):
     if ( del_price >= 1):
         messg.showinfo("", str(prev_price)+" "+str(last_price)+" "+str(round(del_price, 2)))
         prev_price = round(last_price, 0)
-        # prev_price = round(last_price-last_price%0.5, 2)
+        # if(prev_price in alert_list):
+        #     for i in range(3):
+        #         messg.showinfo("", str(prev_price) + " " + str(last_price) + " " + str(round(del_price, 2)))
     return prev_price
     #     n_alert=1
     #     if (prev_price in alert_list):
