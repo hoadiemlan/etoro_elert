@@ -1,4 +1,5 @@
 import tkinter
+import time
 from tkinter import messagebox
 from tkinter import filedialog
 class messg:
@@ -7,9 +8,13 @@ class messg:
     @classmethod
     def showinfo(cls, title, massage):
         if messg.enable == 1:
-            root = tkinter.Tk()
-            root.withdraw()
-            messagebox.showinfo(title, massage)
+            try:
+                root = tkinter.Tk()
+                root.withdraw()
+                root.after(5000, root.destroy) #timeout ms
+                messagebox.showinfo(title, massage)
+            except:
+                pass
 
 def open_input_file(init_dir, form_title, extension):
     root = tkinter.Tk()
